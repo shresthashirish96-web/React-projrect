@@ -1,0 +1,36 @@
+.ser{
+    background-color: #D7C097;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.main-service{
+    padding: 100px 200px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.main-service h1{
+    font-size: 3rem;
+}
+.main-service p{
+    line-height: 1.5rem;
+    font-size: 19px;
+}
+.service-detail{
+    padding: 14px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.service-row{
+    display: flex;
+    gap: 2rem;
+}
+.service-box{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.service-box img{
+    height: 350px;
+    width: 400px;
+}

@@ -1,0 +1,141 @@
+.work{
+    background-color: #D7C097;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.work-title{
+    padding: 100px 200px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.work-title h1{
+    font-size: 3rem;
+}
+.work-title p{
+    line-height: 1.5rem;
+    font-size: 19px;
+}
+.worked{
+    display: flex;
+    flex-direction: column;
+}
+.work-row{
+    padding: 14px 50px;
+    display: flex;
+    gap: 3rem;
+}
+.work-box1{
+    background-image: url(kitchen1.jpg);
+    padding: 125px 140px;
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+    cursor: pointer;
+}
+.work-box1 h3{
+    color: black;
+    opacity: 0;
+    font-size: 25px;
+}
+.work-box1:hover h3{
+    opacity: 1;
+}
+.work-box1:hover{
+    opacity: 0.8;
+}
+.work-box2{
+    background-image: url(bathroom.jpg);
+    padding: 125px 140px;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.work-box2 h3{
+    color: black;
+    opacity: 0;
+    font-size: 25px;
+}
+.work-box2:hover h3{
+    opacity: 1;
+}
+.work-box2:hover{
+    opacity: 0.8;
+}
+.work-box3{
+    background-image: url(interior.jpg);
+    padding: 125px 140px;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.work-box3 h3{
+    color: black;
+    opacity: 0;
+    font-size: 25px;
+}
+.work-box3:hover h3{
+    opacity: 1;
+}
+.work-box3:hover{
+    opacity: 0.8;
+}
+.work-box4{
+    background-image: url(add.jpg);
+    padding: 125px 130px;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.work-box4 h3{
+    color: black;
+    opacity: 0;
+    font-size: 25px;
+}
+.work-box4:hover h3{
+    opacity: 1;
+}
+.work-box4:hover{
+    opacity: 0.8;
+}
+.work-box5{
+    background-image: url(exter.jpg);
+    padding: 125px 155px;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.work-box5 h3{
+    color: black;
+    opacity: 0;
+    font-size: 25px;
+}
+.work-box5:hover h3{
+    opacity: 1;
+}
+.work-box5:hover{
+    opacity: 0.8;
+}
+.work-box6{
+    background-image: url(sun.jpg);
+    padding: 125px 130px;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.work-box6 h3{
+    color: black;
+    opacity: 0;
+    font-size: 25px;
+}
+.work-box6:hover h3{
+    opacity: 1;
+}
+.work-box6:hover{
+    opacity: 0.8;
+}

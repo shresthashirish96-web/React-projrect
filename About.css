@@ -1,0 +1,91 @@
+.about{
+    background-color: #D7C097;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.dis{
+    padding: 100px 200px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.dis h1{
+    font-size: 3rem;
+}
+.dis p{
+    line-height: 1.5rem;
+    font-size: 19px;
+}
+.pho{
+    background-image: url(room.jpg);
+    background-attachment: fixed;
+    background-position: middle;
+    padding: 200px 500px;
+}
+.pho h1{
+    opacity: 0;
+}
+.process{
+    padding-top: 0px;
+    padding: 150px 200px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.process h1{
+    font-size: 3rem;
+}
+.process p{
+    line-height: 1.5rem;
+    font-size: 19px;
+}
+.state{
+    padding: 0;
+}
+.det-row{
+    display: flex;
+    width: 100%;
+    gap: 0;
+}
+.det-row img{
+    height: 300px;
+    width: 25%;
+}
+.bakas{
+    padding: 50px 5px;
+    padding-bottom: 5px;
+    background-color: rgb(170, 167, 167);
+    width: 25%;
+    text-align: center;
+}
+.guarantee{
+    padding-top: 100px;
+    text-align: center;
+    padding: 100px 150px;
+}
+.guarantee h1{
+    font-size: 3rem;
+}
+.guarantee p{
+    line-height: 1.5rem;
+    font-size: 19px;
+}
+.dream{
+    padding: 100px 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.dream h3{
+    font-size: 2rem;
+}
+.dream button{
+    padding: 14px 50px;
+    background-color: #D7C097;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    transition: 2s;
+}
+.dream button:hover{
+    background-color: azure;
+}

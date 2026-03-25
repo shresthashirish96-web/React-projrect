@@ -1,0 +1,251 @@
+.all{
+    background-color: #D7C097;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.main{
+    margin: 14px 50px;
+    padding: 14px 50px;
+    background-image: url('hehe.jpg');
+    background-attachment: fixed;
+    background-color: #D7C097;
+    background-size: cover;
+}
+.head{
+    margin-top: 23rem;
+}
+.head h1{
+    font-size: 4rem;
+}
+.main button{
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    color: #7E5E2A;
+    transition: 2s;
+    margin-bottom: 10px;
+}
+.main button:hover{
+    background-color: #7E5E2A;
+    color: white;
+}
+.bod{
+    width: 90%;
+    padding: 14px 50px;
+    background-color: #D7C097;
+    display: flex;
+    gap: 8rem;
+}
+.pic{
+    width: 45%;
+    background-image: url(kitchen.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 250px 10px;
+}
+.pic h1{
+    opacity: 0;
+}
+.wit{
+    margin-top: 140px;
+    width: 45%;
+}
+.wit h1{
+    font-size: 3rem;
+}
+.wit p{
+    text-align: justify;
+    font-size: 20px;
+}
+.wit button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    color: #7E5E2A;
+    transition: 2s;
+}
+.wit button:hover{
+    background-color: #7E5E2A;
+    color: white;
+}
+.why{
+    margin-top: 50px;
+    padding: 14px 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+.containers{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+.contain{
+    padding: 14px 15px;
+    width: 22%;
+}
+.contain h3{
+    color: #505f69;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.contain p{
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+.include{
+    background-color: #f8e3bf;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 14px 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+.include h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.include button{
+    padding: 14px 50px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    border: none;
+    background-color: thistle;
+    color: #30281c;
+    transition: 2s;
+}
+.include button:hover{
+    background-color: #30281c;
+    color: thistle;
+}
+.boxes{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+}
+.box1{
+    background-image: url(wokitch.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 200px 120px;
+    color: white;
+    font-size: 3rem;
+}
+.box2{
+    background-image: url(baath.webp);
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 200px 120px;
+    color: white;
+    font-size: 3rem
+}
+.box3{
+    background-image: url(in.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 200px 120px;
+    color: white;
+    font-size: 3rem
+}
+.customer{
+    padding: 14px 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+.customer h1{
+    font-size: 3rem;
+}
+.cus{
+    display: flex;
+    width: 100%;
+
+}
+.cus1{
+    padding: 14px 50px;
+}
+.cus1 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 19px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.cus1 h2{
+    font-size: 2rem;
+    color: #7E5E2A;
+}
+.cus2{
+    padding: 14px 50px;
+}
+.cus2 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 19px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.cus2 h2{
+    font-size: 2rem;
+    color: #7E5E2A;
+}
+.cus3{
+    padding: 14px 50px;
+}
+.cus3 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 19px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.cus3 h2{
+    font-size: 2rem;
+    color: #7E5E2A;
+}
+.detail{
+    display: flex;
+    padding: 14px 50px;
+    background-color: black;
+    color: white;
+}
+.word{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.word h1{
+    font-size: 4rem;
+}
+.word h3{
+    font-size: 2rem;
+}
+.set{
+    gap: 1px;
+}
+.set h2{
+    font-size: 3rem;
+}
+.set p{
+    font-size: 1.5rem;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 50p;
+    gap: 4rem;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.foot img{
+    height: 150px;
+    width: 150px;
+}

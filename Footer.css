@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    padding: 14px 50p;
+    gap: 35rem;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.the
+{
+    gap: 40rem;
+    padding: 20px 100px;
+}
+.icon{
+    display: flex;
+    gap: 1rem;
+}
