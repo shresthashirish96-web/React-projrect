@@ -1,2 +1,2 @@
 # React-project
-my react project i have done
+my react project I have done
